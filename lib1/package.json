@@ -8,6 +8,12 @@
     "test": "vue-cli-service test",
     "lint": "vue-cli-service lint"
   },
+  "main": "src/components/HelloWorld.vue",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "browser": "dist/alib1jwc.umd.js",
   "dependencies": {
     "vue": "^2.5.13"
   },
