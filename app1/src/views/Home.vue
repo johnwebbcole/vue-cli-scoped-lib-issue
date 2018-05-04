@@ -7,7 +7,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@jwc/alib1";
-
+import "@jwc/alib1/dist/alib1jwc.css";
 export default {
   name: "home",
   components: {
