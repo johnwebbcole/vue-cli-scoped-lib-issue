@@ -27,8 +27,9 @@
       <li><a href="https://vue-loader.vuejs.org/en" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
-    <img src="@/assets/vue-logo.png">
-    <img src="@/assets/circle.svg">
+    <img src="./assets/vue-logo.png">
+    <img src="./assets/unknown.svg">
+    <img src="./assets/fff.png">
   </div>
 </template>
 

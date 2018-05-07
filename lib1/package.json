@@ -4,15 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name alib1jwc src/HelloWorld.vue",
+    "build":
+      "vue-cli-service build --target lib --name alib1jwc src/HelloWorld.vue",
     "test": "vue-cli-service test",
     "lint": "vue-cli-service lint"
   },
   "main": "src/components/HelloWorld.vue",
-  "files": [
-    "dist/",
-    "src/"
-  ],
+  "files": ["dist/**/*", "src/**/*"],
   "browser": "dist/alib1jwc.umd.js",
   "dependencies": {
     "vue": "^2.5.13"
@@ -26,27 +24,18 @@
     "@vue/test-utils": "^1.0.0-beta.15",
     "babel-core": "^7.0.0-0",
     "babel-jest": "^22.0.4",
-    "lint-staged": "^7.0.5",
+    "lint-staged": "^7.1.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "vue-svg-loader": "^0.5.0",
     "vue-template-compiler": "^2.5.13"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "vue-cli-service lint",
-      "git add"
-    ],
-    "*.vue": [
-      "vue-cli-service lint",
-      "git add"
-    ]
+    "*.js": ["vue-cli-service lint", "git add"],
+    "*.vue": ["vue-cli-service lint", "git add"]
   }
 }
