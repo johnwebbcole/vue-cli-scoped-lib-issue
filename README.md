@@ -3,7 +3,7 @@
 Creating a library using `vue-cli` works, but I'm having issues with
 an application displaying an image inside the library component:
 
-![example](example.png)
+![example](broken-images.png)
 
 How should I create/use this component so images are refrenced properly?
 
@@ -21,4 +21,7 @@ npm i
 npm run serve
 ```
 
-I'm not sure if I created the lib wrong or imported it wrong.
+I think the library is being built correctly, because the images are in `dist/img`.
+
+How do I ensure the images referenced in the library component are found
+by web pack in the `app` using the library?
